@@ -1,0 +1,165 @@
+Variable,Crohn's disease,Ulcerative colitis,IBD Activity - Remission,IBD Activity - Mild,IBD Activity - Moderate,IBD Activity - Severe
+(Intercept),0,0,0,0,0,0
+age,0,0,0,0,0,0
+sexBinaryFemale,0,0,0,0,0,0
+sexBinaryMale,0,0,0,0,0,0
+dateInterval,0,0,0,0,0,0
+race___0FALSE,0,0,0,0,0,0
+race___0TRUE,0,0,0,0,0,0
+race___1FALSE,0,0,0,0,0,0
+race___1TRUE,0,0,0,0,0,0
+race___3FALSE,0,0,0,0,0,0
+race___3TRUE,0,0,0,0,0,0
+ethnicityRecodedHispanic,0,0,0,0,0,0
+ethnicityRecodedNot Hispanic,0,0,0,0,0,0
+stateCatMixWOtherEast North Central,0,0,0,0,0,0
+stateCatMixWOtherEast South Central,0,0,0,0,0,0
+stateCatMixWOtherMid-Atlantic,0,0,0,0,0,0
+stateCatMixWOtherNew England,0,0,0,0,0,0
+stateCatMixWOtherNew York,0,0,0,0,0,0
+stateCatMixWOtherSouth Atlantic,0,0,0,0,0,0
+stateCatMixWOtherWest,0,0,0,0,0,0
+stateCatMixWOtherWest North Central,0,0,0,0,0,0
+stateCatMixWOtherWest South Central,0,0,0,0,0,0
+countryGroupedArgentina,0,0,0,0,0,0
+countryGroupedBelgium,0,0,0,0,0,0
+countryGroupedBrazil,0,0,0,0,0,0
+countryGroupedCanada,0,0,0,0,0,0
+countryGroupedFrance,0,0,0,0,0,0
+countryGroupedGermany,0,0,0,0,0,0
+countryGroupedIndia,0,0,0,0,0,0
+"countryGroupedIran, Islamic Republic of",0,0,0,0,0,0
+countryGroupedIsrael,0,0,0,0,0,0
+countryGroupedItaly,0,0,0,0,0,0
+countryGroupedNetherlands,0,0,0,0,0,0
+countryGroupedothers,0,0,0,0,0,0
+countryGroupedPortugal,0,0,0,0,0,0
+countryGroupedRussian Federation,0,0,0,0,0,0
+countryGroupedSpain,0,0,0,0,0,0
+countryGroupedTurkey,0,0,0,0,0,0
+countryGroupedUnited Kingdom,0,0,0,0,0,0
+countryGroupedUnited States,0,0,0,0,0,0
+CountryIncomeGrphigh,0,0,0,0,0,0
+CountryIncomeGrpLow or lower-middle,0,0,0,0,0,0
+CountryIncomeGrpupper_middle,0,0,0,0,0,0
+diagnosisRecodedCrohn's disease,1,0,0,0,0,0
+diagnosisRecodedUlcerative colitis,0,1,0,0,0,0
+pgaUnknownRecodedRemission,0,0,1,0,0,0
+pgaUnknownRecodedMild,0,0,0,1,0,0
+pgaUnknownRecodedModerate,0,0,0,0,1,0
+pgaUnknownRecodedSevere,0,0,0,0,0,1
+comorbid___1,0,0,0,0,0,0
+comorbid___2,0,0,0,0,0,0
+comorbid___3,0,0,0,0,0,0
+comorbid___4,0,0,0,0,0,0
+comorbid___5,0,0,0,0,0,0
+comorbid___6,0,0,0,0,0,0
+comorbid___7,0,0,0,0,0,0
+comorbid___8,0,0,0,0,0,0
+comorbid___9,0,0,0,0,0,0
+comorbid___10,0,0,0,0,0,0
+comorbid___11,0,0,0,0,0,0
+heightCombinedCm,0,0,0,0,0,0
+weightBMIAbv60Rm,0,0,0,0,0,0
+bmiAbv60Rm,0,0,0,0,0,0
+ComorbidCount,0,0,0,0,0,0
+asa___1,0,0,0,0,0,0
+asa___2,0,0,0,0,0,0
+Bud_flg,0,0,0,0,0,0
+Other_CS_flg,0,0,0,0,0,0
+TNF_flg,0,0,0,0,0,0
+INT_flg,0,0,0,0,0,0
+IL_flg,0,0,0,0,0,0
+ImmodMet,0,0,0,0,0,0
+Immod6mpOrAza,0,0,0,0,0,0
+preddose_daily,0,0,0,0,0,0
+azadose,0,0,0,0,0,0
+mcpdose,0,0,0,0,0,0
+preddose_dailyByWt,0,0,0,0,0,0
+mcpdoseByWt,0,0,0,0,0,0
+azadoseByWt,0,0,0,0,0,0
+med_cat___1,0,0,0,0,0,0
+med_cat___2,0,0,0,0,0,0
+med_cat___3,0,0,0,0,0,0
+med_cat___4,0,0,0,0,0,0
+med_cat___5,0,0,0,0,0,0
+med_cat___6,0,0,0,0,0,0
+med_cat___7,0,0,0,0,0,0
+age:sexBinaryFemale,0,0,0,0,0,0
+age:sexBinaryMale,0,0,0,0,0,0
+age:ComorbidCount,0,0,0,0,0,0
+age:bmiAbv60Rm,0,0,0,0,0,0
+comorbid___11FALSE:ComorbidCount,0,0,0,0,0,0
+comorbid___11TRUE:ComorbidCount,0,0,0,0,0,0
+comorbid___1FALSE:comorbid___2FALSE,0,0,0,0,0,0
+comorbid___1TRUE:comorbid___2FALSE,0,0,0,0,0,0
+comorbid___1FALSE:comorbid___2TRUE,0,0,0,0,0,0
+comorbid___1TRUE:comorbid___2TRUE,0,0,0,0,0,0
+comorbid___1FALSE:comorbid___6FALSE,0,0,0,0,0,0
+comorbid___1TRUE:comorbid___6FALSE,0,0,0,0,0,0
+comorbid___1FALSE:comorbid___6TRUE,0,0,0,0,0,0
+comorbid___1TRUE:comorbid___6TRUE,0,0,0,0,0,0
+comorbid___2FALSE:comorbid___6FALSE,0,0,0,0,0,0
+comorbid___2TRUE:comorbid___6FALSE,0,0,0,0,0,0
+comorbid___2FALSE:comorbid___6TRUE,0,0,0,0,0,0
+comorbid___2TRUE:comorbid___6TRUE,0,0,0,0,0,0
+comorbid___6FALSE:comorbid___9FALSE,0,0,0,0,0,0
+comorbid___6TRUE:comorbid___9FALSE,0,0,0,0,0,0
+comorbid___6FALSE:comorbid___9TRUE,0,0,0,0,0,0
+comorbid___6TRUE:comorbid___9TRUE,0,0,0,0,0,0
+med_cat___1FALSE:med_cat___2FALSE,0,0,0,0,0,0
+med_cat___1TRUE:med_cat___2FALSE,0,0,0,0,0,0
+med_cat___1FALSE:med_cat___2TRUE,0,0,0,0,0,0
+med_cat___1TRUE:med_cat___2TRUE,0,0,0,0,0,0
+med_cat___1FALSE:med_cat___3FALSE,0,0,0,0,0,0
+med_cat___1TRUE:med_cat___3FALSE,0,0,0,0,0,0
+med_cat___1FALSE:med_cat___3TRUE,0,0,0,0,0,0
+med_cat___1TRUE:med_cat___3TRUE,0,0,0,0,0,0
+med_cat___1FALSE:med_cat___4FALSE,0,0,0,0,0,0
+med_cat___1TRUE:med_cat___4FALSE,0,0,0,0,0,0
+med_cat___1FALSE:med_cat___4TRUE,0,0,0,0,0,0
+med_cat___1TRUE:med_cat___4TRUE,0,0,0,0,0,0
+med_cat___2FALSE:med_cat___3FALSE,0,0,0,0,0,0
+med_cat___2TRUE:med_cat___3FALSE,0,0,0,0,0,0
+med_cat___2FALSE:med_cat___3TRUE,0,0,0,0,0,0
+med_cat___2TRUE:med_cat___3TRUE,0,0,0,0,0,0
+med_cat___2FALSE:med_cat___4FALSE,0,0,0,0,0,0
+med_cat___2TRUE:med_cat___4FALSE,0,0,0,0,0,0
+med_cat___2FALSE:med_cat___4TRUE,0,0,0,0,0,0
+med_cat___2TRUE:med_cat___4TRUE,0,0,0,0,0,0
+med_cat___3FALSE:med_cat___4FALSE,0,0,0,0,0,0
+med_cat___3TRUE:med_cat___4FALSE,0,0,0,0,0,0
+med_cat___3FALSE:med_cat___4TRUE,0,0,0,0,0,0
+med_cat___3TRUE:med_cat___4TRUE,0,0,0,0,0,0
+Other_CS_flgFALSE:age,0,0,0,0,0,0
+Other_CS_flgTRUE:age,0,0,0,0,0,0
+Other_CS_flgFALSE:sexBinaryFemale,0,0,0,0,0,0
+Other_CS_flgTRUE:sexBinaryFemale,0,0,0,0,0,0
+Other_CS_flgFALSE:sexBinaryMale,0,0,0,0,0,0
+Other_CS_flgTRUE:sexBinaryMale,0,0,0,0,0,0
+Other_CS_flgFALSE:bmiAbv60Rm,0,0,0,0,0,0
+Other_CS_flgTRUE:bmiAbv60Rm,0,0,0,0,0,0
+I(age^2),0,0,0,0,0,0
+I(ComorbidCount^2),0,0,0,0,0,0
+I(bmiAbv60Rm^2),0,0,0,0,0,0
+I(preddose_daily^2),0,0,0,0,0,0
+I(azadose^2),0,0,0,0,0,0
+I(mcpdose^2),0,0,0,0,0,0
+dateInterval:countryGroupedArgentina,0,0,0,0,0,0
+dateInterval:countryGroupedBelgium,0,0,0,0,0,0
+dateInterval:countryGroupedBrazil,0,0,0,0,0,0
+dateInterval:countryGroupedCanada,0,0,0,0,0,0
+dateInterval:countryGroupedFrance,0,0,0,0,0,0
+dateInterval:countryGroupedGermany,0,0,0,0,0,0
+dateInterval:countryGroupedIndia,0,0,0,0,0,0
+"dateInterval:countryGroupedIran, Islamic Republic of",0,0,0,0,0,0
+dateInterval:countryGroupedIsrael,0,0,0,0,0,0
+dateInterval:countryGroupedItaly,0,0,0,0,0,0
+dateInterval:countryGroupedNetherlands,0,0,0,0,0,0
+dateInterval:countryGroupedothers,0,0,0,0,0,0
+dateInterval:countryGroupedPortugal,0,0,0,0,0,0
+dateInterval:countryGroupedRussian Federation,0,0,0,0,0,0
+dateInterval:countryGroupedSpain,0,0,0,0,0,0
+dateInterval:countryGroupedTurkey,0,0,0,0,0,0
+dateInterval:countryGroupedUnited Kingdom,0,0,0,0,0,0
+dateInterval:countryGroupedUnited States,0,0,0,0,0,0
