@@ -21,6 +21,10 @@ The online risk prediction tool can effectively predict which unvaccinated patie
  This analysis was conducted using R Version 4.0.2, and the `tidyverse`, `glmnet`, `glmnetUtils`, `mice`, `magrittr`, `future`, and `pROC` packages. 
  
  The calculator was created using R Shiny.
+ 
+ Below is an example risk prediction for a patient with below-average predicted risk. Young age, gender and a lack of comorbidities contribute to a lower-than-average risk of adverse COVID-19 outcomes.
+ 
+![02_Plots/Patient1.png](02_Plots/Patient1.png)
 
 ## Reference
 
